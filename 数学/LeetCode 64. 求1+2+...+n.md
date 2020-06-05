@@ -25,7 +25,8 @@ n + n-1 +...+0
 ```python
 class Solution:
     def sumNums(self, n: int) -> int:
-    	return 0 if n==0 else (n + self.sumNums(n - 1))
+        # false为0
+    	return n and (n + self.sumNums(n - 1))
 ```
 
 ### 2.2. 循环
