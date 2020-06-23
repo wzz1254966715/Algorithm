@@ -1,4 +1,4 @@
-# LeetCode 1396. 设计地铁系统
+[TOC]
 
 ## 1. 题目描述
 
@@ -55,7 +55,7 @@ undergroundSystem.getAverageTime("Leyton", "Waterloo");          // 返回 12.0
 
 ## 2. 题解
 
-##### 思路:
+**思路:**
 
 使用字典存储
 
